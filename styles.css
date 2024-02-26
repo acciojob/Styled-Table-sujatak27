@@ -1,1 +1,21 @@
 /* your code */
+table {
+  background-color: white; /* Light background for the entire table */
+  border-collapse: collapse; /* Make borders touch */
+  width: 60%; /* Adjust as needed */
+  margin: 20px auto; /* Center the table */
+}
+
+thead {
+  background-color: blue; /* Slightly darker header background */
+}
+
+tbody tr:nth-child(even) { 
+   background-color: gray; /* Alternating row colors */
+}
+
+
+th, td {
+  border: 1px solid pink ;  /* Light gray border for all cells */
+  padding: 8px;            /* Add cell spacing */
+}*/
